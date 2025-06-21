@@ -145,9 +145,7 @@ title(sprintf('Projectile Height vs Time (Angle: %.2f°)', user_angle));
 grid on;
 hold on;
 
-% Time at which object is above building 
-t_over_building = S / (V_user * cos(user_angle_rad));
-
+% Building marker 
 % Building location on graph
-line([t_over_building t_over_building], [0 H], 'Color', 'g', 'LineStyle', '-', 'LineWidth', 5);
-text(t_over_building + 0.05, H, 'Building');
+line([t_building t_building], [0 H], 'Color', 'g', 'LineStyle', '-', 'LineWidth', 5);
+text(t_building + 0.05, H, 'Building');
