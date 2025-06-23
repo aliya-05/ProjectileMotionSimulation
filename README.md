@@ -20,34 +20,34 @@ Key Features:
 - Determines whether the projectile successfully clears the building
 - Visualizes projectile motion using height vs. horizontal distance plots
 - User-friendly MATLAB App GUI:
--   input launch coordinates and building height
--   select launch angle within valid range using slider
--   real-time simulation with graphical output 
-- Built-in input validation to handle errors and ensure meaningful results
+-     input launch coordinates and building height
+-     select launch angle within valid range using slider
+-     real-time simulation with graphical output
+-     built-in input validation to handle errors and ensure meaningful results
 
 Files Included:
 
 - projectile_sim.m
--   main MATLAB code for calculating trajectories and plotting results 
+-     main MATLAB code for calculating trajectories and plotting results 
 - projectile_app.mlapp
--   MATLAB App Designer file for the interactive GUI version
+-     MATLAB App Designer file for the interactive GUI version
 - README.md
--   project documentation
+-     project documentation
 
 How to Run:
 
 - Command-Line Script
--   Open MATLAB and locate projectile_sim.m in the current folder
--   Run: projectile_sim
--   Follow prompts to input launch coordinates, building height, and launch angle
--   The projectile trajectory will be plotted automatically
+-     Open MATLAB and locate projectile_sim.m in the current folder
+-     Run: projectile_sim
+-     Follow prompts to input launch coordinates, building height, and launch angle
+-     The projectile trajectory will be plotted automatically
 
 - MATLAB App
--   Open MATLAB and locate projectile_app.mlapp
--   Type the following command to open the App and then press enter: open('projectile_app.mlapp')
--   Fill the required fields for launch coordinates and building height
--   Select a valid launch angle using the slider
--   Click Simulate to display the projectile trajectory
+-     Open MATLAB and locate projectile_app.mlapp
+-     Type the following command to open the App and then press enter: open('projectile_app.mlapp')
+-     Fill the required fields for launch coordinates and building height
+-     Select a valid launch angle using the slider
+-     Click Simulate to display the projectile trajectory
 
 Assumptions & Limitations:
 
